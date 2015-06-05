@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @shuvo.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @shuvo.description %>
+</p>
+
+<p>
+  <strong>No followers:</strong>
+  <%= @shuvo.no_followers %>
+</p>
+
+<%= link_to 'Edit', edit_shuvo_path(@shuvo) %> |
+<%= link_to 'Back', shuvos_path %>
